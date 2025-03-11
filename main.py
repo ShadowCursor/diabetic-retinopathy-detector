@@ -1,9 +1,8 @@
 from flask import Flask, render_template, request, redirect, url_for
 from PIL import Image
 import numpy as np
-import keras.saving as sg # type: ignore
+import keras.saving as sg
 import os
-import io
 from werkzeug.utils import secure_filename
 
 app = Flask(__name__)
